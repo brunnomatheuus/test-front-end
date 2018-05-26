@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
-body,h1,h5 {font-family: "Raleway", sans-serif}
+body,h1,h5 {font-family: "Arial", sans-serif}
 body, html {height: 100%}
 #home {
     background-image: url('bg-feature.jpeg');
@@ -17,7 +17,7 @@ body, html {height: 100%}
 
 #quem-somos {
     background-image: url('bg-quem-somos.jpg');
-    min-height: 50%;
+    min-height: 70%;
     background-position: center;
     opacity: 0.9;
 }
@@ -26,15 +26,30 @@ body, html {height: 100%}
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
 }
 
+#text-home {
+  line-height: 120%;
+}
+
+#text-lorem-ipsum {
+  font-size: 45px;
+}
+
+#subtitle {
+  font-size: 15px;
+  margin-bottom: 40px;
+  width:350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #buttons-slide {
   color: white;
 }
 
 #text-quem-somos {
   margin-left: 100px;
-  margin-top: 60px;
+  margin-top: 50px;
   color: white;
-  font-family: "Arial", sans-serif;
   width: 450px;
   height: 400px;
 }
@@ -45,6 +60,71 @@ body, html {height: 100%}
 
 #quem-somos-text {
   font-size: 14px;
+}
+
+#text-lateral-direita {
+  margin-right: 80px;
+  margin-top: 50px;
+  color: white;
+  font-size: 65px;
+  line-height: 120%;
+  opacity: 0.7;
+}
+
+#rodape-esquerdo {
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+#nossos-servicos {
+  margin-top: 80px;
+}
+
+#bordas {
+  display: flex;
+  justify-content: center;
+}
+
+div.border1 {
+  padding: 2.7%;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+div.border2 {
+  padding: 2.7%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+div.border3 {
+  padding: 2.7%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+#nossos-clientes {
+  margin-top: 80px;
+}
+
+#clientes li{
+  display: inline;
+  margin: 45px;
 }
 
 </style>
@@ -67,9 +147,10 @@ body, html {height: 100%}
       <button class="w3-button w3-display-right w3-margin-bottom w3-margin-right">&#10095;</button>
     </div>
 
-    <div class="w3-display-middle w3-margin-top w3-center">
-      <h1 class="w3-text-white w3-opacity"><b> Lorem ipsum dolor sit amet</b> </h1>
-      <h3 class="w3-text-white w3-opacity"> Morbi id phareta leo, ut tincidunt enim. Suspendisse lectus nibh, placerat sit amet.
+    <div class="w3-display-middle w3-center" id="text-home">
+      <b class="w3-text-white" id="text-lorem-ipsum"> Lorem ipsum dolor sit amet</b>
+      <p class="w3-text-white" id="subtitle"> Morbi id phareta leo, ut tincidunt enim. Suspendisse lectus nibh, placerat sit amet.</p>
+      <button class="w3-button w3-indigo">FALE COM A GENTE</button>
     </div>
   </div>
 
@@ -79,12 +160,56 @@ body, html {height: 100%}
       <p id="quem-somos-text">Lorem ipsum dolor sit amet, consectur adipiscing elit. Sed nec justo tortor. Sed nec libero lacus. Sed a finibus odio, in viverra quam. Maecenas hendrerit lectus vitae ullamcorper vestibulum. Nulla fringilla in enim et dignissim.</p>
 
       <p id="quem-somos-text">Lorem ipsum dolor sit amet, consectur adipiscing elit. Sed nec justo tortor. Sed nec libero lacus. Sed a finibus odio, in viverra quam. Maecenas hendrerit lectus vitae ullamcorper vestibulum. Nulla fringilla in enim et dignissim.</p>
+
+      <button class="w3-button w3-deep-orange w3-margin-top">QUERO CONHECER MAIS</button>
+    </div>
+
+    <div class="w3-display-right" id="text-lateral-direita">
+      <b>QUEM</b> <br>
+      <b>SOMOS</b>
     </div>
   </div>
 
-  <footer class="w3-center w3-black w3-padding-16">
-    <p>&#169; Copyright Healthy 2017. Todos os Direitos Reservados.</p>
-  </footer>
+  <div id="servicos-clientes">
+    <div class="w3-center" id="nossos-servicos">
 
+      <h3 class="w3-text-deep-orange"><b> NOSSOS SERVIÇOS </b></h3>
+
+      <div class="w3-center" id="bordas">
+        <div class="border1">  
+          <img src="engrenagem.png" alt="Engrenagem">
+          <h5 class="w3-text-deep-orange"><b> LOREM IPSUM </b></h5>
+        </div>
+
+        <div class="border2"> 
+          <img src="engrenagem.png" alt="Engrenagem">
+          <h5 class="w3-text-deep-orange"><b> LOREM IPSUM </b></h5>
+        </div>
+
+        <div class="border3"> 
+          <img src="engrenagem.png" alt="Engrenagem">
+          <h5 class="w3-text-deep-orange"><b> LOREM IPSUM </b></h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-center" id="nossos-clientes">
+      <h3 class="w3-text-indigo"><b> NOSSOS CLIENTES </b></h3>
+
+      <div >
+        <ul id="clientes">
+          <li><img src="cliente1.png" alt="CLiente 1"></li>
+          <li><img src="cliente2.png" alt="CLiente 2"></li>
+          <li><img src="cliente3.png" alt="CLiente 3"></li>
+          <li><img src="cliente4.png" alt="CLiente 4"></li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+
+  <footer class="w3-white">
+    <p class="w3-text-gray" id="rodape-esquerdo">&#169; Copyright Healthy 2017. Todos os Direitos Reservados.</p>
+  </footer>
 </body>
 </html>
