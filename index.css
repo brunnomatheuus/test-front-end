@@ -1,0 +1,180 @@
+body{font-family: "Arial", sans-serif}
+body, html {height: 100%}
+
+#home {
+    background-image: url('bg-feature.jpeg');
+    min-height: 80%;
+    background-position: center;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+#quem-somos {
+    background-image: url('bg-quem-somos.jpg');
+    min-height: 70%;
+    background-position: center;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+#navbar {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+
+#text-home {
+  line-height: 120%;
+}
+
+#text-lorem-ipsum {
+  font-size: 45px;
+}
+
+#subtitle {
+  font-size: 15px;
+  margin-bottom: 40px;
+  width:350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttons-slide {
+  color: white;
+}
+
+#text-quem-somos {
+  margin-left: 100px;
+  margin-top: 50px;
+  color: white;
+  width: 450px;
+  height: 400px;
+}
+
+#titulo-quem-somos {
+  font-size: 30px;
+}
+
+#quem-somos-text {
+  font-size: 14px;
+}
+
+#text-lateral-direita {
+  margin-top: 4%;
+  margin-right: 8%;
+  color: white;
+  font-size: 65px;
+  line-height: 120%;
+  opacity: 0.7;
+}
+
+#rodape-esquerdo {
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 12px;
+}
+
+#nossos-servicos {
+  margin-top: 80px;
+}
+
+#bordas {
+  display: flex;
+  justify-content: center;
+}
+
+div.border1 {
+  padding: 2.7%;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+div.border2 {
+  padding: 2.7%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+div.border3 {
+  padding: 2.7%;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff5722;
+  width: 220px;
+  height: 200px;
+}
+
+#nossos-clientes {
+  margin-top: 80px;
+}
+
+#clientes li{
+  display: inline;
+  margin: 45px;
+}
+
+#contato {
+  display: flex;
+  justify-content: center;
+  background-color: #2cadf8;
+  width: 100%;
+  height: 75%;
+}
+
+#contato-esquerdo {
+  margin-left: 100px;
+}
+
+#contatos {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contatos p {
+  margin-left: 8px;
+}
+
+#mapa {
+  width: 100%;
+  height: 300px;
+}
+
+#borda-entre-containers {
+  border-right: solid;
+  border-width: 1px;
+  margin-left: 150px;
+}
+
+#contato-direito {
+  width: 30%;
+  margin-right: 100px;
+}
+
+input {
+  border-style: none;
+  border-width: 1px;
+  width: 100%;
+  height: 30px;
+}
+
+input:focus{
+  border: 1px solid rgb(239,132,60);
+}
+
+textarea {
+  border-style: none;
+  border-width: 1px;
+  width: 100%;
+}
